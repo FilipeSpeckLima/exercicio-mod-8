@@ -7,7 +7,7 @@ Funcionalidade: Concluir cadastro
 
   Esquema de Cenário: Cadastro com todos os dados obrigatórios
     Quando eu preencho todos os campos obrigatórios <Nome>, <Sobrenome>, <Email>, <Senha>, <Endereço>
-    Entâo eu clico no botão "Concluir cadastro" e meu cadastro deve ser concluído com sucesso
+    Então eu clico no botão "Concluir cadastro" e meu cadastro deve ser concluído com sucesso
     
     Exemplos:
       | Nome       | Sobrenome | Email                   | Senha       | Endereço           |
