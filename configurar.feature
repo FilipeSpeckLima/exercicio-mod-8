@@ -29,7 +29,7 @@ Contexto: que estou na página de um produto disponível
 
   Esquema de Cenário: Limpar configurações do produto
     Quando que selecionei cor, tamanho e quantidade de um produto
-    Entâo eu clico no botão "Limpar"
+    Então eu clico no botão "Limpar"
     
     Exemplos:
       | Cor    | Tamanho | Quantidade | Ação    | Estado após "Limpar"                              |
